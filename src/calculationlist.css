@@ -1,0 +1,49 @@
+.calculation-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .calculation-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .calculation-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .calculation-list li:hover {
+    background-color: #e9e9e9;
+  }
+  
+
+  .logouts-div {
+    margin-top: -50px;
+    margin-left: 475px;
+    width: 200px;
+  }
+
+  .button-delete {
+    background-color: rgb(199, 14, 14);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-left: auto; /* Push delete button to the right */
+  }
+
+  .button-update{
+    background-color: rgb(24, 243, 141);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-left: 275px; /* Push delete button to the right */
+  }
